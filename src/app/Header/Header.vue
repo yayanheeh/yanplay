@@ -14,15 +14,42 @@
     app
   >
     <v-toolbar-side-icon @click="toggleDrawer"/>
-    <router-link class="hidden-md-and-up"
-      @click.native="sendLogoClickGA"
-      aria-label="home" 
-      :to="{name: 'home'}">
-      <img 
-        class="logo mr-2" 
-        alt="Youtube Logo"
-        src="/img/full-logo-white.png">
-    </router-link>
+   
+       <v-layout class="hidden-md-and-up"
+      row 
+      justify-center>
+      <v-flex 
+        xs12 
+        md8 
+        lg6 >
+        <v-form 
+          @submit.prevent="searchVideos">
+          <v-combobox
+            ref="searchBox"
+            :menu-props="{
+              transition: 'slide-y-transition'
+            }"
+            clearable
+            class="mx-3"
+            no-filter
+            :loading="searching"
+            :items="searchSuggestions"
+            :append-icon="null"
+            :search-input.sync="query"
+            v-model="searchSelectedValue"
+            @input="searchVideos"
+            dark
+            flat
+            full-width
+            prepend-inner-icon="search"
+            hide-no-data
+            hide-details
+            :label="$t('searchHeaderPlaceholder')"
+            solo-inverted
+          />
+        </v-form>
+      </v-flex>
+    </v-layout>
 <!--search desktop-->
     <v-layout class="hidden-sm-and-down"
       row 
