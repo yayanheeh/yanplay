@@ -15,9 +15,9 @@
 
 <p><b>Kerangka kerja</b></p>
 
-<p>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs<b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</p>
+<p>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs</b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</p>
 
-<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="">disini</a> Terimakasih.</p></small>   
+<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="https://www.instagram.com/kres_008">disini</a> Terimakasih.</p></small>   
 </p>     
       <v-layout 
         align-center 
