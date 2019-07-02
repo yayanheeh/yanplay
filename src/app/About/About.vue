@@ -7,7 +7,7 @@
       :description="metaDescription"/>
     <v-card>
       <v-card-title primary-title>
-        <div>
+        <div><p align="justify">
          <p> <b>About Yplay</b></p>
 <center><img src="photo.png"/></center>
           <p> <b><span>Hi,I'M Kris</span><b></p>
@@ -17,7 +17,8 @@
 
 <p>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs<b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</p>
 
-<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="">disini</a> Terimakasih.</p></small>        
+<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="">disini</a> Terimakasih.</p></small>   
+</p>     
       <v-layout 
         align-center 
         justify-center
