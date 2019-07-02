@@ -50,6 +50,11 @@
         </v-form>
       </v-flex>
     </v-layout>
+<v-btn icon>
+            <v-icon>more_vert</v-icon>
+          </v-btn>
+
+
 <!--versi desktop-->
 <router-link 
       @click.native="sendLogoClickGA"
