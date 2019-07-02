@@ -10,6 +10,14 @@
         <div>
           <h3 class="headline mb-0">About vTyoob</h3>
           <br>
+Saya ingin becerita sedikit tentang situs web ini Yplay adalah Tempat menonton video Youtube Gratis tanpa iklan
+
+Kerangka kerja
+
+Situs web ini dibuat didasarkan pada kerangka kerja Vuejs dan Vuetify menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video
+
+Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan bug apabila anda menemukanya melalui via DM instagram saya disini Terimakasih.
+
           <span>
             Hi. I'm Pranav Jindal. <br>
             This project is my naïve attempt aimed at making
