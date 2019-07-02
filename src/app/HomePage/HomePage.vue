@@ -4,7 +4,7 @@
     grid-list-lg 
     class="no-overflow-x">
     <Helmet 
-      title="" 
+      title="Yplay" 
       :description="metaDescription"/>
     <div 
       :key="$index" 
