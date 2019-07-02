@@ -50,7 +50,17 @@
         </v-form>
       </v-flex>
     </v-layout>
-<!--search desktop-->
+<!--versi desktop-->
+<router-link 
+      @click.native="sendLogoClickGA"
+      aria-label="home" 
+      :to="{name: 'home'}">
+      <img 
+        class="logo mr-2" 
+        alt="Youtube Logo"
+        src="/img/full-logo-white.png">
+    </router-link>
+
     <v-layout class="hidden-sm-and-down"
       row 
       justify-center>
@@ -86,9 +96,9 @@
         </v-form>
       </v-flex>
     </v-layout>
-<!--search desktop-->
+<!--versi desktop-->
   </v-toolbar>
-<!--hide mobile-->
+
 
 
 </template>
