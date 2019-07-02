@@ -5,7 +5,7 @@
 
 <!--hide mobile-->
   <v-toolbar 
-    color="vTyoobRed"
+    color="primary"
     dense
     fixed
     dark
