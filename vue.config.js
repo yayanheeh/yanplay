@@ -29,8 +29,8 @@ module.exports = {
   runtimeCompiler: false,
   pwa: {
     name: "Yplay Online",
-    themeColor: "#cb0000",
-    msTileColor: "#cb0000",
+    themeColor: "#000000",
+    msTileColor: "#000000",
     appleMobileWebAppCapable: "yes",
     appleMobileWebAppStatusBarStyle: "black-translucent",
     iconPaths: {
