@@ -8,74 +8,17 @@
     <v-card>
       <v-card-title primary-title>
         <div>
-          <h3 class="headline mb-0">About vTyoob</h3>
-          <br>
-Saya ingin becerita sedikit tentang situs web ini Yplay adalah Tempat menonton video Youtube Gratis tanpa iklan
+         <p> <b>About vTyoob</b></p>
+          <p> <b><span>Hi,I'M Kris</span><b></p>
+<small><p>Saya ingin becerita sedikit tentang situs web ini<br/> <b>Yplay</b> adalah Tempat menonton video <b>Youtube</b> Gratis tanpa iklan</p>
 
-Kerangka kerja
+<p><b>Kerangka kerja</b></p>
 
-Situs web ini dibuat didasarkan pada kerangka kerja Vuejs dan Vuetify menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video
+<p>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs<b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</p>
 
-Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan bug apabila anda menemukanya melalui via DM instagram saya disini Terimakasih.
+<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan bug apabila anda menemukanya melalui via DM instagram saya disini Terimakasih.
 
-          <span>
-            Hi. I'm Pranav Jindal. <br>
-            This project is my naïve attempt aimed at making
-            a simple Material version of YouTube using Google APIs, VueJS and Vuetify. <br>
-            I make this project in my leisure time just to improve my front-end skills. <br>
-            <br>
-            <span class="font-italic">
-              This project was previously written in AngularJS and now has been moved to VueJS.
-            </span>
-            <br>
-          </span>
-          <br>
-          <span>
-            The code for the project can be found at
-            <a 
-              @click="sendContactGA('git-repo-link')"
-              target="_blank" 
-              href="https://github.com/pranavjindal999/Youtube-Material/tree/vuetube">
-              Github
-            </a> 
-          </span>
-          <br>
-          <br>
-          <span>Feel free to contact me via any of the following media.</span>
-        </div>
-      </v-card-title>
-      <v-card-actions>
-        <v-layout 
-          class="my-4"
-          row 
-          justify-center>
-          <v-tooltip 
-            :key="$index" 
-            v-for="(item, $index) in socials" 
-            bottom>
-            <v-btn 
-              slot="activator" 
-              outline 
-              fab 
-              small
-              class="mx-2"
-              :href="item.href"
-              target="_blank"
-              @click="sendContactGA(item.label)"
-              color="primary">
-              <v-progress-circular 
-                class="ma-2" 
-                indeterminate 
-                :width="1" 
-                size="22" 
-                v-if="isIconLoading"/>
-              <v-icon>{{ item.icon }}</v-icon>
-            </v-btn>
-            <span>{{ item.label }}</span>
-          </v-tooltip>
-        </v-layout>
-      </v-card-actions>
-      <v-divider/>
+ </p></small>        
       <v-layout 
         align-center 
         justify-center
