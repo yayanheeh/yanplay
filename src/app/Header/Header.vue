@@ -1,11 +1,10 @@
 
 <template>
 
-     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.1/material.indigo-pink.min.css">
-       
+     
 
 <!--hide mobile-->
-  <v-toolbar class="class="hidden-md-and-up"
+  <v-toolbar 
     color="vTyoobRed"
     dense
     fixed
@@ -15,7 +14,7 @@
     app
   >
     <v-toolbar-side-icon @click="toggleDrawer"/>
-    <router-link 
+    <router-link class="hidden-md-and-up"
       @click.native="sendLogoClickGA"
       aria-label="home" 
       :to="{name: 'home'}">
@@ -63,16 +62,6 @@
 
   </v-toolbar>
 <!--hide mobile-->
-<!--hide destktop-->
-<div class="mdl-cell--hide-phone mdl-cell--hide-tablet alert desktop">
-          You are on a desktop
-       </div>
-       <div class="mdl-cell--hide-desktop mdl-cell--hide-tablet alert phone">
-          You are on a phone
-       </div>
-       <div class="mdl-cell--hide-desktop mdl-cell--hide-phone alert tablet">
-          You are on a tablet
-       </div>
 
 
 </template>
