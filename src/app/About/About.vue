@@ -8,7 +8,8 @@
     <v-card>
       <v-card-title primary-title>
         <div>
-         <p> <b>About vTyoob</b></p>
+         <p> <b>About Yplay</b></p>
+<center><img src="photo.jpg"/></center>
           <p> <b><span>Hi,I'M Kris</span><b></p>
 <small><p>Saya ingin becerita sedikit tentang situs web ini<br/> <b>Yplay</b> adalah Tempat menonton video <b>Youtube</b> Gratis tanpa iklan</p>
 
@@ -16,7 +17,7 @@
 
 <p>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs<b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</p>
 
-<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan bug apabila anda menemukanya melalui via DM instagram saya disini Terimakasih.
+<p>Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="">disini</a> Terimakasih.
 
  </p></small>        
       <v-layout 
