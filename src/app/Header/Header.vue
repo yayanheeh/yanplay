@@ -23,8 +23,8 @@
         alt="Youtube Logo"
         src="/img/full-logo-white.png">
     </router-link>
-
-    <v-layout 
+<!--search desktop-->
+    <v-layout class="hidden-sm-and-down"
       row 
       justify-center>
       <v-flex 
@@ -59,7 +59,7 @@
         </v-form>
       </v-flex>
     </v-layout>
-
+<!--search desktop-->
   </v-toolbar>
 <!--hide mobile-->
 
