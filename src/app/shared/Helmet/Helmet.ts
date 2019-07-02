@@ -17,7 +17,7 @@ export default class Helmet extends Vue {
 
   @Watch("title", { immediate: true })
   titleUpdater() {
-    document.title = this.title ? `vTyoob - ${this.title}` : "vTyoob";
+    document.title = this.title ? `Yplay - ${this.title}` : "Yplay";
     let metaTitle = document.getElementById("meta-title") as HTMLMetaElement;
     metaTitle.content = document.title;
   }
