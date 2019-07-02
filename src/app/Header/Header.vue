@@ -1,5 +1,7 @@
+
 <template>
-  <v-toolbar
+<!--hide mobile-->
+  <v-toolbar class="hidden-sm-and-down"
     color="vTyoobRed"
     dense
     fixed
@@ -56,6 +58,8 @@
     </v-layout>
 
   </v-toolbar>
+<!--hide mobile-->
+
 </template>
 
 <style scoped>
