@@ -2,7 +2,7 @@
 <template>
 <!--hide mobile-->
   <v-toolbar class="hidden-sm-and-down"
-    color="vTyoobRed"
+    color="primary"
     dense
     fixed
     dark
