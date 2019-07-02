@@ -9,8 +9,8 @@
       <v-card-title primary-title>
         <div><p align="justify">
          <p> <b>About Yplay</b></p>
-<center><img src="photo.png" width="30" height="30">/></center>
-          <p> <b><span>Hi,I'M Kris</span><b></p>
+<center><img src="photo.png" width="60" height="60"></center>
+          <p> <b><span>Hi,I'm Kris</span><b></p>
 <small><p>Saya ingin becerita sedikit tentang situs web ini<br/> <b>Yplay</b> adalah Tempat menonton video <b>Youtube</b> Gratis tanpa iklan</p>
 
 <p><b>Kerangka kerja</b></p>
