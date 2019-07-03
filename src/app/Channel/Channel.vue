@@ -17,7 +17,7 @@
     <v-toolbar
       ref="tabBar"
       dark
-      color="vTyoobRed"
+      color="primary"
       :class="stickyTabsClass"
       tabs>
       <v-avatar 
@@ -33,7 +33,7 @@
       <v-toolbar-title>{{ title }}</v-toolbar-title>
       <v-tabs 
         slot="extension" 
-        color="vTyoobRed" 
+        color="primary" 
         slider-color="white"
         grow>
         <v-tab
