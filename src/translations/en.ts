@@ -5,7 +5,7 @@ export default {
     "Couldn't load Youtube Client API, Please refresh!",
   onlineMessage: "You are online.",
   offlineMessage: "You are offline.",
-  searchHeaderPlaceholder: "Search videos...",
+  searchHeaderPlaceholder: "Pencarian video...",
   home: "Home",
   trending: "Trending",
   music: "Musik",
