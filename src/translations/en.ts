@@ -10,7 +10,7 @@ export default {
   trending: "Trending",
   music: "Musik",
   movies: "Film",
-  sports: "Olaraga",
+  sports: "Olahraga",
   technology: "Teknologi",
   comedy: "Comedi",
   about: "Tentang",
