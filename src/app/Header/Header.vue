@@ -50,9 +50,18 @@
         </v-form>
       </v-flex>
     </v-layout>
-<v-btn icon class="hidden-md-and-up">
+
+<router-link class="hidden-md-and-up"
+      @click.native="sendLogoClickGA"
+      aria-label="about" 
+      :to="{name: 'about'}">
+      
             <v-icon>more_vert</v-icon>
-          </v-btn>
+          
+    </router-link>
+
+
+
 
 
 <!--versi desktop-->
