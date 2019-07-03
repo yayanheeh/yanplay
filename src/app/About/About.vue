@@ -10,7 +10,7 @@
         <div>
          <p> <b>About Yplay</b></p>
 <center><img src="photo.png" width="60" height="60"></center>
-          <p> <b><span>Hi,I'm Kris</span><b></p>
+          <p><i>Hi,I'm Kris</i></p>
  <p align="justify"> <small>Saya ingin becerita sedikit tentang situs web ini <b>Yplay</b> adalah Tempat menonton video <b>Youtube</b> Gratis tanpa iklan<small></p>
 
 <p><b>Kerangka kerja</b></p>
@@ -18,7 +18,7 @@
  <p align="justify"> <small>Situs web ini dibuat didasarkan pada kerangka kerja javascript <b>Vuejs</b> dan <b>Vuetify</b> menggunakan Google API DATA YOUTUBE V3 untuk menampilkan semua konten video</small></p>
 
  <p align="justify"><small>  Semua isi di web ini saya kelola sendiri di kala waktu sengang saya, jadi silakan menggunakannya Jangan ragu untuk menghubungi saya dan melaporkan <b>bug</b> apabila anda menemukanya melalui via DM instagram saya <a href="https://www.instagram.com/kres_008">disini</a> Terimakasih.</small> </small>  
-    
+    </div>
       <v-layout 
         align-center 
         justify-center
