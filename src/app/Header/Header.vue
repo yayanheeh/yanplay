@@ -61,11 +61,7 @@
       @click.native="sendLogoClickGA"
       aria-label="home" 
       :to="{name: 'home'}">
-      <img 
-        class="logo mr-2" 
-        alt="Youtube Logo"
-        src="/img/full-logo-white.png">
-    </router-link>
+      <font size="3" color="white"><b>Yplay</b></font> </router-link>
     <v-layout class="hidden-sm-and-down"
       row 
       justify-center>
